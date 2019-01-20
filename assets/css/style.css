@@ -1,0 +1,145 @@
+
+/* main title div style */
+.mainTitle{ 
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(151, 31, 31);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+/* style for title */
+.h1Title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: fit-content; 
+    color: white;
+    margin: 0 auto;
+}
+
+/* table style */
+
+#mainTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    border: solid rgb(116, 2, 2) 1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0 auto;
+    
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-weight: bold;
+    width: 18%;
+    text-align: justify;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pClass{
+    border-bottom: solid rgb(204, 204, 204) 1px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+table{
+    border: solid rgb(151, 65, 65) 1px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* table categories style */
+#title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(151, 31, 31);
+    border: -1px solid rgb(151, 31, 31);;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
+
+.titleTrain{
+    padding-left: 10px;
+
+}
+
+
+.titleRow{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold; 
+    color: gray;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+}
+
+.userInput{
+    width: 80%;
+    border: solid lightblue 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-content: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+
+/* __________user interface_______________ */
+input{
+    position: relative;
+    width: 95%;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: solid rgb(189, 189, 189) 1px;
+    border-radius: 4px;
+}
+
+/* Form title */
+.addTrain{
+    font-size: 20px;
+    color: white;
+    background-color: #add8e6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+
+/* margin for categories */
+.userI{
+    margin-left: 10px; 
+}
+
+/* button */
+.submitBtn{
+    padding: 5px;
+    border-radius: 4px;
+    background-color: lightblue;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+/* button on hover effect */
+.submitBtn:hover{
+    background-color: rgb(30, 106, 131);
+}

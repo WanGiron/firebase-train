@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script src="assets/script/moment.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Train schedule</title>
+</head>
+<body>
+    <div class="mainTitle"><h1 class="h1Title" >CHECK FOR THE NEXT TRAIN HERE</h1></div>
+    <br>
+    <div id="mainTable">
+            <div id="title"><h2 class="titleTrain">Train Schedule</h2></div>
+            <span class="container"><p class="trainName">Train name</p></span>
+            <span class="container"><p class="destination">Destination</p></span>
+            <span class="container"><p class="frequency">Frequency</p></span>
+            <span class="container"><p class="nextArrival">Next arrival</p></span>
+            <span class="container"><p class="minutesAway">Minutes away</p></span>
+
+            <span id="trainN" class="container"></span>
+            <span id="destin" class="container"></span>
+            <span id="frequent" class="container"></span>
+            <span id="arrival" class="container"></span>
+            <span id="timeLeft" class="container"></span>
+    </div>
+    <br>
+    <hr>
+    <div class="userInput">
+        <p class="addTrain" >Add Train</p>
+        <p class="userI">Train Name</p>
+        <input type="text" id="trainNameVal" placeholder="Train name here">
+        <p class="userI">Destination</p>
+        <input type="text" id="destinationVal" placeholder="Destination here">
+        <p class="userI">First Train Time</p>
+        <input id="trainTime" placeholder="Military time Eg. 23:59">
+        <p class="userI" >Frequency</p>
+        <input type="number" id="frequencyVal" placeholder="Minutes format">
+        <button class="submitBtn" id="submitBtn">Submit</button>
+        <!-- <button class="submitBtn" id="testbtn">test</button> -->
+
+    </div>
+
+<script src="assets/script/main.js"></script>
+</body>
+</html>
