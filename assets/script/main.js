@@ -18,7 +18,7 @@ var database = firebase.database();
 
 
 // adding values to data base
-$("#submitBtn").on('click', function(){
+$("#submitBtn").on('click', function(event){
     event.preventDefault();
 // getting firstTime train
     var frequency = $("#frequencyVal").val().trim();
